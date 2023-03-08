@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=IBM+Plex+Sans+JP:wght@400;500&family=Montserrat:wght@600&family=Poppins:wght@600&family=Work+Sans:wght@400;500;600&display=swap');
+
+/* section one start */
+.section-one-bg {
+    background: url(images/Groupbg-sectionone.png);
+}
+
+/* navbar css start */
+
+.nav-position-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-top: 3px solid #0081ff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-top: 3px solid #0081ff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-top: 1.5rem;
+}
+
+.blue-clr {
+    color: #0081ff;
+}
+
+
+/* start section-one-content */
+.section-one-content {
+    padding: 8rem 0 4rem;
+}
+
+.text-hello {
+    font-family: 'Galada', cursive;
+}
+
+.my-three {
+    margin: 3.5rem 0;
+}
+
+.btn-common {
+    background: #00aeed;
+    border-radius: 20px !important;
+    padding: 0.3rem 1.4rem !important;
+}
+
+/* end section-one-content */
+
+/* start section two  */
+.section-two {
+    padding: 4rem 0;
+    background-color: #0081ff;
+}
+
+.section-twoleftside {
+    max-width: 65%;
+}
+
+.section-tworightside {
+    max-width: 80%;
+}
+
+.paragraph-text {
+    font-size: 13px;
+}
+
+.btn-clichere {
+    background-color: #3b4374 !important;
+}
+
+/* start section two  */
+
+/* start section three  */
+.section-three {
+    padding: 4rem 0;
+    background-color: #007af3;
+}
+
+.cards-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* end section three  */
+
+/* start section four  */
+.section-four {
+    padding: 4rem 0 0;
+}
+
+.Profile-title {
+    color: #575757;
+}
+
+.i-make-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* over section four  */
+
+/* start section five */
+.section-five {
+    background: url(images/whatdo-bg.png);
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.section-five-paragraph {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.my-six {
+    margin: 6rem auto 1rem;
+}
+
+/* over section five */
+
+/* start section six */
+.section-six {
+    padding: 6rem 0;
+}
+
+.i-write-content {
+    color: #3b3b3b;
+}
+
+.box-blue {
+    background-color: #007ef9;
+}
+
+.gray-box {
+    background-color: #eaeaea;
+    color: #353535;
+}
+
+.black-box {
+    background-color: #000;
+}
+
+.blog-rightdiebgimg {
+    background: url(images/groupbg-rightsideblog.png);
+    background-size: contain;
+}
+
+.my-eight {
+    margin: 8rem 1rem 1rem;
+}
+
+.pink-box {
+    background-color: #e91d62;
+}
+
+/* over section six */
+
+/* statr fotor section */
+.footer {
+    background-image: url(images/foter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 0 1rem;
+}
+
+.c-phone {
+    font-size: 12px;
+}
+
+.mr-two {
+    margin-right: 2rem;
+}
+
+.input-field {
+    background-color: rgb(47, 45, 45);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.submit {
+    color: white;
+    background-color: #0081ff;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+.icon-size {
+    font-size: 28px !important;
+}
+
+.icon-parent {
+    border: 3px solid white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social-icon {
+    margin: 5rem auto;
+}
+
+/* over foter section */
+
+
+/* media queirs for respnsive */
+@media only screen and (max-width: 425px) {
+    .section-five-paragraph {
+        max-width: 90%;
+    }
+
+    .my-six {
+        margin: 3rem auto 1rem;
+    }
+}
